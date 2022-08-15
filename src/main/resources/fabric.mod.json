@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+  "name": "Example Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
+  },
+  "license": "CC0",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.modid.ExampleMod"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": ">=${fabric_version}",
+    "create": ">=${create_version}",
+    "minecraft": ">=${minecraft_version}",
+    "java": ">=${java_version}"
+  }
+}
